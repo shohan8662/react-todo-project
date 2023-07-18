@@ -1,0 +1,75 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+
+
+input {
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+}
+
+input::placeholder{
+    color: purple;
+    font-size: 14px;
+}
+
+.btn {
+    background-color: purple;
+    padding: 10px 20px;
+    border: 2px solid purple;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.btn-delete{
+   
+        background-color: purple;
+        padding: 10px 20px;
+        border: 2px solid purple;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 10px;
+        font-size: 14px;
+        transition: .3s;
+    
+}
+
+.btn-delete:hover{
+    background-color: red;
+    border: 2px solid red;
+    transition: .3s;
+}
+.btn:hover {
+    background-color: darkorchid;
+    border: 2px solid darkorchid;
+    transition: .3s;
+}
+
+hr {
+    color: purple
+}
+
+.list {
+    margin-bottom: 10px;
+}
+
+.list-items {
+    width: 73%;
+    list-style: none;
+    border: 2px solid purple;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+    
+}
